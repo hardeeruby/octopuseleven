@@ -1,0 +1,63 @@
+/*title: crazy love */
+
+body {
+	background-color: #e9e9e9;
+	margin: 0;
+	padding: 0;
+	font-family: trebuchet ms;
+	color: #777;
+	font-size: 14px;
+	}
+	#body {width: 90%;}
+	#bodyul { 
+	display: inline-block;}
+#body li{
+	background-color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2pt;	
+	color: #000;
+	text-align:center;
+	padding: 20px;
+	list-style-type: none;
+	transition: 0.4s;
+	border: 2px solid #222;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#body li:hover {
+	transition:0.4s;
+	border-color: #fff;
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #000;
+}
+#body li:hover a {color: #fff;}	
+	
+ 
+ /*TITLES*/
+ #title {width: 90%;}
+ul#title  {display: inline-block;}
+#title li {	background-color: #ffcc00;
+	text-transform: uppercase;
+	letter-spacing: 2pt;	
+	color: #000;
+	text-align:center;
+	padding: 20px;
+	list-style-type: none;
+	transition: 0.4s; 
+	margin-bottom: 10px;
+	border-bottom: 2px solid #ffe371;	
+	margin-top: 10px;}
+	
+#title li:hover {
+	transition:0.4s;  
+	border-bottom: 2px solid #ffe371; 
+}
+#title li:hover a {color: #000;transition: 0.4s;text-decoration: none;}	
+#title li:hover a:hover {color: #fff;transition: 0.4s;text-decoration: none;}
+
+
+
+a, a:link, a:visited, a:active {color: #000; text-decoration: none; transition: 0.4s;}
+li a:hover {color: #fff; text-decoration:none;}
